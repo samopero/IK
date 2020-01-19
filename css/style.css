@@ -1,304 +1,328 @@
+/*
+		TODO:
+		1) promeniti boje u heksa format,
+		2) promeniti px u rem i em-e,
+		3) komentarima razdvojiti sekcije radi lakseg sanlazenja i odrzavanja koda,
+		4) promenit imena naziva klasa u engleske nazive
+*/
 .mySlides {
-    display:none;
-	height: 400px;
-	width: 100%;
-
-    }
-
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-      }
-
-body{
-    background-color:white;
+  display: none;
+  height: 400px;
+  width: 100%;
 }
-.mySlides {
-    display:none;
-    height: 400px;
-    }
-    footer{
-        background-color: #555;
-        color: white;
-		padding: 30px;
-	
-        
-    } 
-    footer a{
-        color:white;
-        text-decoration: none;
-      }
-       footer a:hover {
-        color: rgb(160, 252, 252);
-        text-decoration: underline;
-      }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+body {
+  background-color: white;
+}
 
-      .card-1{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url("../Vazduh\ prizvan\ Suncem\ 61x71\ \(kombinovana\ tehnika\ na\ kartonu\).JPG");
-        border-radius: 2rem;
-        
-      }
-      
-      .card-2{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url("../Minijatura1.JPG");
-        border-radius: 2rem;
-      
-      
-      }
-      .card-3{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url("../Casa\ c.jpg");
-        border-radius: 2rem;
-      }
-      .card-4{
-        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url("../Startup\ Dizajn.jpg");
-        border-radius: 2rem;
-      }
+/* footer */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 30px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(160, 252, 252);
+  text-decoration: underline;
+}
+.card-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../Vazduh\ prizvan\ Suncem\ 61x71\ \(kombinovana\ tehnika\ na\ kartonu\).JPG");
+  border-radius: 2rem;
+}
+.card-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../Minijatura1.JPG");
+  border-radius: 2rem;
+}
+.card-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../Casa\ c.jpg");
+  border-radius: 2rem;
+}
+.card-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("../Startup\ Dizajn.jpg");
+  border-radius: 2rem;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 7px 18px 50px #555;
+  max-width: 300px;
+  height: 380px;
+}
+.contact_form h2,
+.contact_form label {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+.form_hint,
+.required_notification {
+  font-size: 11px;
+}
 
-      .card-1, .card-2, .card-3, .card-4 {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        box-shadow: 7px 18px 50px #555;
-         max-width: 300px; 
-		 height: 380px;        
-      }
-
-
-      .contact_form h2, .contact_form label {font-family:Georgia, Times, "Times New Roman", serif;}
-.form_hint, .required_notification {font-size: 11px;}
-
-/* === List Styles === */
+/* List Styles */
 .contact_form ul {
-    width:750px;
-    list-style-type:none;
-	list-style-position:outside;
-	margin:0px;
-  padding:100px;
-  
+  width: 750px;
+  list-style-type: none;
+  list-style-position: outside;
+  margin: 0px;
+  padding: 100px;
 }
-.contact_form li{
-	padding:12px; 
-	border-bottom:1px solid #eee;
-	position:relative;
-} 
-.contact_form li:first-child, .contact_form li:last-child {
-	border-bottom:1px solid #777;
+.contact_form li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.contact_form li:first-child,
+.contact_form li:last-child {
+  border-bottom: 1px solid #777;
 }
 
-/* === Form Header === */
+/* Form Header */
 .contact_form h2 {
-	margin:0;
-	display: inline;
+  margin: 0;
+  display: inline;
 }
 .required_notification {
-	color:#d45252; 
-	margin:5px 0 0 0; 
-	display:inline;
+  color: #d45252;
+  margin: 5px 0 0 0;
+  display: inline;
 }
 
-/* === Form Elements === */
+/* Form Elements */
 .contact_form label {
-	width:150px;
-	margin-top: 3px;
-	display:inline-block;
-	
-	padding:3px;
+  width: 150px;
+  margin-top: 3px;
+  display: inline-block;
+  padding: 3px;
 }
 .contact_form input {
-	height:20px; 
-	width:220px; 
-	padding:5px 8px;
+  height: 20px;
+  width: 220px;
+  padding: 5px 8px;
 }
-.contact_form textarea {padding:8px; width:300px;}
-.contact_form button {margin-left:156px;}
-
-	/* form element visual styles */
-	.contact_form input, .contact_form textarea { 
-		border:1px solid #aaa;
-		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
-		border-radius:2px;
-		padding-right:30px;
-		-moz-transition: padding .25s; 
-		-webkit-transition: padding .25s; 
-		-o-transition: padding .25s;
-		transition: padding .25s;
-	}
-	.contact_form input:focus, .contact_form textarea:focus {
-		background: #fff; 
-		border:1px solid #555; 
-		box-shadow: 0 0 3px #aaa; 
-		padding-right:70px;
-	}
-
-/* === HTML5 validation styles === */	
-.contact_form input:required, .contact_form textarea:required {
-	background: #fff url(../images/red_asterisk.png) no-repeat 98% center;
+.contact_form textarea {
+  padding: 8px;
+  width: 300px;
 }
-.contact_form input:required:valid, .contact_form textarea:required:valid {
-	background: #fff url(../images/valid.png) no-repeat 98% center;
-	box-shadow: 0 0 5px #5cd053;
-	border-color: #28921f;
-}
-.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
-	background: #fff url(../images/invalid.png) no-repeat 98% center;
-	box-shadow: 0 0 5px #d45252;
-	border-color: #b03535
+.contact_form button {
+  margin-left: 156px;
 }
 
-/* === Form hints === */
+/* form element visual styles */
+.contact_form input,
+.contact_form textarea {
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius: 2px;
+  padding-right: 30px;
+  -moz-transition: padding 0.25s;
+  -webkit-transition: padding 0.25s;
+  -o-transition: padding 0.25s;
+  transition: padding 0.25s;
+}
+.contact_form input:focus,
+.contact_form textarea:focus {
+  background: #fff;
+  border: 1px solid #555;
+  box-shadow: 0 0 3px #aaa;
+  padding-right: 70px;
+}
+
+/* HTML5 validation styles */
+.contact_form input:required,
+.contact_form textarea:required {
+  background: #fff url(../images/red_asterisk.png) no-repeat 98% center;
+}
+.contact_form input:required:valid,
+.contact_form textarea:required:valid {
+  background: #fff url(../images/valid.png) no-repeat 98% center;
+  box-shadow: 0 0 5px #5cd053;
+  border-color: #28921f;
+}
+.contact_form input:focus:invalid,
+.contact_form textarea:focus:invalid {
+  background: #fff url(../images/invalid.png) no-repeat 98% center;
+  box-shadow: 0 0 5px #d45252;
+  border-color: #b03535;
+}
+
+/* Form hints */
 .form_hint {
-	background: #d45252;
-	border-radius: 3px 3px 3px 3px;
-	color: white;
-	margin-left:8px;
-	padding: 1px 6px;
-	z-index: 999; /* hints stay above all other elements */
-	position: absolute; /* allows proper formatting if hint is two lines */
-	display: none;
+  background: #d45252;
+  border-radius: 3px 3px 3px 3px;
+  color: white;
+  margin-left: 8px;
+  padding: 1px 6px;
+  z-index: 999; /* hints stay above all other elements */
+  position: absolute; /* allows proper formatting if hint is two lines */
+  display: none;
 }
 .form_hint::before {
-	content: "\25C0";
-	color:#d45252;
-	position: absolute;
-	top:1px;
-	left:-6px;
+  content: "\25C0";
+  color: #d45252;
+  position: absolute;
+  top: 1px;
+  left: -6px;
 }
-.contact_form input:focus + .form_hint {display: inline;}
-.contact_form input:required:valid + .form_hint {background: #28921f;}
-.contact_form input:required:valid + .form_hint::before {color:#28921f;}
-	
-/* === Button Style === */
+.contact_form input:focus + .form_hint {
+  display: inline;
+}
+.contact_form input:required:valid + .form_hint {
+  background: #28921f;
+}
+.contact_form input:required:valid + .form_hint::before {
+  color: #28921f;
+}
+
+/* Button Style */
 button.submit {
-	background-color: #68b12f;
-	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
-	background: -webkit-linear-gradient(top, #68b12f, #50911e);
-	background: -moz-linear-gradient(top, #68b12f, #50911e);
-	background: -ms-linear-gradient(top, #68b12f, #50911e);
-	background: -o-linear-gradient(top, #68b12f, #50911e);
-	background: linear-gradient(top, #68b12f, #50911e);
-	border: 1px solid #509111;
-	border-bottom: 1px solid #5b992b;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	box-shadow: inset 0 1px 0 0 #9fd574;
-	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
-	-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
-	-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
-	-o-box-shadow: 0 1px 0 0 #9fd574 inset;
-	font-weight: bold;
-	color:white;
-	padding: 6px 20px;
-	text-align: center;
-	text-shadow: 0 -1px 0 #396715;
+  background-color: #68b12f;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#68b12f),
+    to(#50911e)
+  );
+  background: -webkit-linear-gradient(top, #68b12f, #50911e);
+  background: -moz-linear-gradient(top, #68b12f, #50911e);
+  background: -ms-linear-gradient(top, #68b12f, #50911e);
+  background: -o-linear-gradient(top, #68b12f, #50911e);
+  background: linear-gradient(top, #68b12f, #50911e);
+  border: 1px solid #509111;
+  border-bottom: 1px solid #5b992b;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  box-shadow: inset 0 1px 0 0 #9fd574;
+  -webkit-box-shadow: 0 1px 0 0 #9fd574 inset;
+  -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+  -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+  -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+  font-weight: bold;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-shadow: 0 -1px 0 #396715;
 }
 button.submit:hover {
-	opacity:.85;
-	cursor: pointer; 
+  opacity: 0.85;
+  cursor: pointer;
 }
 button.submit:active {
-	border: 1px solid #20911e;
-	box-shadow: 0 0 10px 5px #356b0b inset; 
-	-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
-	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
-	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
-	-o-box-shadow: 0 0 10px 5px #356b0b inset;
-	
+  border: 1px solid #20911e;
+  box-shadow: 0 0 10px 5px #356b0b inset;
+  -webkit-box-shadow: 0 0 10px 5px #356b0b inset;
+  -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+  -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+  -o-box-shadow: 0 0 10px 5px #356b0b inset;
 }
-.font-weight-bold{
-	color: white;
+.font-weight-bold {
+  /* TODO: promeniti boje u heksa format */
+  color: white;
 }
 .price-card-button {
-	width: 60%;
-	background-color: #FFF000;
-	box-shadow: 5px 8px 18px #000;
-	border-radius: 25px;
-	transition: all 0.2s;  
-  
-  }
-  
-  .price-card-button:hover {
-	background-color: #fdcf00;
-	transform: translateY(-2px);
-  }
- .slika{
-	 float:left;
-	 width:400px;
-	 height: 300px;
-	 margin-right: 15px;
- }
-	  
- /*
- galerija
- */ 
- .gallery-block {
-	padding-bottom: 60px;
-	padding-top: 60px;
-  }
-  .gallery-block .heading {
-	margin-bottom: 50px;
-	text-align: center;
-  }
-  .gallery-block .heading h2 {
-	font-weight: bold;
-	font-size: 1.4rem;
-	text-transform: uppercase;
-  }
-  .gallery-block.compact-gallery .item {
-	overflow: hidden;
-	margin-bottom: 0;
-	background: black;
-	opacity: 1;
-  }
-  .gallery-block.compact-gallery .item .image {
-	transition: 0.8s ease;
-  }
-  .gallery-block.compact-gallery .item .info {
-	position: relative;
-	display: inline-block;
-  }
+  width: 60%;
+  background-color: #fff000;
+  box-shadow: 5px 8px 18px #000;
+  border-radius: 25px;
+  transition: all 0.2s;
+}
+.price-card-button:hover {
+  background-color: #fdcf00;
+  transform: translateY(-2px);
+}
+.slika {
+  /* TODO: promeniti ime klase u engleski naziv */
+  float: left;
+  width: 400px;
+  height: 300px;
+  margin-right: 15px;
+}
+
+/* gallery */
+.gallery-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.gallery-block .heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.gallery-block .heading h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.gallery-block.compact-gallery .item {
+  overflow: hidden;
+  margin-bottom: 0;
+  background: black; /* TODO: promeniti boje u heksa format */
+  opacity: 1;
+}
+.gallery-block.compact-gallery .item .image {
+  transition: 0.8s ease;
+}
+.gallery-block.compact-gallery .item .info {
+  position: relative;
+  display: inline-block;
+}
+.gallery-block.compact-gallery .item .description {
+  display: grid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 10px;
+  font-size: 17px;
+  line-height: 18px;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: 1;
+  color: #fff;
+  transition: 0.8s ease;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
+}
+.gallery-block.compact-gallery .item .description .description-heading {
+  font-size: 1em;
+  font-weight: bold;
+}
+.gallery-block.compact-gallery .item .description .description-body {
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+/* responsive */
+@media (min-width: 576px) {
   .gallery-block.compact-gallery .item .description {
-	display: grid;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	color: #fff;
-	padding: 10px;
-	font-size: 17px;
-	line-height: 18px;
-	width: 100%;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	opacity: 1;
-	color: #fff;
-	transition: 0.8s ease;
-	text-align: center;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-	background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
+    opacity: 0;
   }
-  .gallery-block.compact-gallery .item .description .description-heading {
-	font-size: 1em;
-	font-weight: bold;
+  .gallery-block.compact-gallery .item a:hover .description {
+    opacity: 1;
   }
-  .gallery-block.compact-gallery .item .description .description-body {
-	font-size: 0.8em;
-	margin-top: 10px;
-	font-weight: 300;
+  .gallery-block .zoom-on-hover:hover .image {
+    transform: scale(1.3);
+    opacity: 0.7;
   }
-  
-  @media (min-width: 576px) {
-	.gallery-block.compact-gallery .item .description {
-	  opacity: 0;
-	}
-	.gallery-block.compact-gallery .item a:hover .description {
-	  opacity: 1;
-	}
-	.gallery-block .zoom-on-hover:hover .image {
-	  transform: scale(1.3);
-	  opacity: 0.7;
-	}
-  }
+}
