@@ -5,9 +5,11 @@
 		3) komentarima razdvojiti sekcije radi lakseg sanlazenja i odrzavanja koda,
 		4) promenit imena naziva klasa u engleske nazive
 */
+
+/* carousell */
 .mySlides {
   display: none;
-  height: 400px;
+  height: 37.5rem;
   width: 100%;
 }
 .center {
