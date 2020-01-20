@@ -251,13 +251,13 @@ button.submit:active {
   background-color: #fdcf00;
   transform: translateY(-2px);
 }
-.slika {
-  /* TODO: promeniti ime klase u engleski naziv */
+/* .about-me {
+  TODO: promeniti ime klase u engleski naziv
   float: left;
   width: 400px;
   height: 300px;
   margin-right: 15px;
-}
+} */
 
 /* gallery */
 .gallery-block {

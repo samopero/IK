@@ -1,82 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <!-- TODO: Proveriti jos jednom da li "head" sekciji ima linkova koji nisu potrebni -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Ivana Knežević</title>
   </head>
 
-<body>
-
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">Ivana Knežević</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="events.html">Aktivnosti</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="studio.html">Radionica</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Galerija</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">O meni</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Kontakt</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Ivana Knežević</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Aktivnosti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="studio.html">Radionica</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galerija</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">O meni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-    <section class=" pt-5 pb-5">
-
-        <h1 class="text-center"> Ivana Knežević</h1>
-        <p class="slika"><img src="images/IK.jpg" alt="Ivana Knežević"
-                style="width:400px;height:250px;margin-right:15px;">
-            <h6> Rođena sam 23. septembra 1983. godine u Čačku. Završila sam Srednju umetničku školu u Nišu, smer-
-                grafički dizajn. Na Fakultetu humanističkih nauka u Nišu diplomirala sam dizajn enterijera.
-                Živim i stvaram u svom rodnom gradu, Čačku. U svom umetničkom radu negujem podjednako klasični akademski
-                pristup, ali se istovremeno bavim i modernim stvaralaštvom. Takođe se bavim i pedagoškim radom na polju
-                likovne pedagogije najmlađih, pa fakultativno (određenim povodima) organizujem dečije radionice i rado
-                se odazivam pozivima institucijama kulture u Čačku za učestvovanje u likovnim radionicama ( Predškolska
-                ustanova ,, Moje detinjstvo“, Umetnička galerija ,, Nadežda Petrović“ i Narodni muzej grada Čačka)</h6>
+    <main>
+      <h1 class="text-center p-2">Ivana Knežević</h1>
+      <section class="container pl-5 pr-5">
+        <div class="row">
+          <!-- TODO: prebaciti Inline style u CSS i boldirati paragraf u CSS-u a ne sa 'h6' tagom -->
+          <div class="about-me">
+            <img
+              class="img-fluid float-left"
+              src="images/IK.jpg"
+              alt="Ivana Knežević"
+              style="width:400px;height:250px;margin-right:15px;"
+            />
+            <p class="text-justify">
+              Rođena sam 23. septembra 1983. godine u Čačku. Završila sam
+              Srednju umetničku školu u Nišu, smer- grafički dizajn. Na
+              Fakultetu humanističkih nauka u Nišu diplomirala sam dizajn
+              enterijera. Živim i stvaram u svom rodnom gradu, Čačku. U svom
+              umetničkom radu negujem podjednako klasični akademski pristup, ali
+              se istovremeno bavim i modernim stvaralaštvom. Takođe se bavim i
+              pedagoškim radom na polju likovne pedagogije najmlađih, pa
+              fakultativno (određenim povodima) organizujem dečije radionice i
+              rado se odazivam pozivima institucijama kulture u Čačku za
+              učestvovanje u likovnim radionicama ( Predškolska ustanova ,, Moje
+              detinjstvo“, Umetnička galerija ,, Nadežda Petrović“ i Narodni
+              muzej grada Čačka)
             </p>
-        <hr>
-        <p>
-            <h6>Trenutno pripremam svoju prvu samostalnu izložbu ali sam imala dosta grupnih izložbi (Niš, Novi
-                Pazar,Čačak, Pranjani, Gornji Milanovac, Majdanpek, Beograd, Petrovac na Mlavi).
-                Sfere mog praktičnog slikarskog interesovanja su jako široke, od klasičnog slikarstva do modernog izraza
-                i primenjene umetnosti i dizajna. Bavim se različitim tehnikama zidnog slikarstva, kao i oslikavanjem
-                stakla, keramike i tekstila. Medijumi u kojima se izražavam su veoma različiti i skromno dolazim do
-                materjala za rad i umetnički izraz. Radim na platnu , papiru, medijapanu, staklu, koristim čak i
-                materjale kao što su klirit, žica, metal, stiropol, drvo a i dimenzije mojih radova su različite, od
-                minijatura do velikih formata. <br> 
-                <hr>
-
-
-             </h6>
-        </p>
-    </section>
-
+            <hr />
+            <p class="text-justify">
+              Trenutno pripremam svoju prvu samostalnu izložbu ali sam imala
+              dosta grupnih izložbi (Niš, Novi Pazar,Čačak, Pranjani, Gornji
+              Milanovac, Majdanpek, Beograd, Petrovac na Mlavi). Sfere mog
+              praktičnog slikarskog interesovanja su jako široke, od klasičnog
+              slikarstva do modernog izraza i primenjene umetnosti i dizajna.
+              Bavim se različitim tehnikama zidnog slikarstva, kao i
+              oslikavanjem stakla, keramike i tekstila. Medijumi u kojima se
+              izražavam su veoma različiti i skromno dolazim do materjala za rad
+              i umetnički izraz. Radim na platnu , papiru, medijapanu, staklu,
+              koristim čak i materjale kao što su klirit, žica, metal, stiropol,
+              drvo a i dimenzije mojih radova su različite, od minijatura do
+              velikih formata.
+            </p>
+            <hr />
+            <!-- TODO: razmake praviti sa padding-om u CSS a ne sa HR -->
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="container">
         <div class="row p-4">
@@ -96,25 +129,36 @@
             <ul id="contact_details_footer">
               <li id="address_footer">Ljubić Kej 19/11, Čačak, Srbija</li>
               <!-- TODO: enkodovati brojeve telefona i email adresu -->
-              <li id="phone_footer"> tel: +381 (0)64 23 23 178, (0)32 355 468</li>
-              <li id="email_footer"> mail:<a href="mailto: ivanaknezevic44@gmail.com">ivanaknezevic44@gmail.com</a></li>
+              <li id="phone_footer">
+                tel: +381 (0)64 23 23 178, (0)32 355 468
+              </li>
+              <li id="email_footer">
+                mail:<a href="mailto: ivanaknezevic44@gmail.com"
+                  >ivanaknezevic44@gmail.com</a
+                >
+              </li>
             </ul>
           </div>
           <div class="col-md-4 col-sm-12 text-center">
-            <a class="btn btn-lg btn-transparent"><i class="fa fa-twitter-square fa-2x"></i></a>
-            <a class="btn btn-lg btn-transparent"><i class="fa fa-envelope fa-2x"></i></a> <br>
-            <a class="btn btn-lg btn-transparent"><i class="fa fa-facebook-square fa-2x"></i></a>
-            <a class="btn btn-lg btn-transparent"><i class="fa fa-youtube fa-2x"></i></a>
+            <a class="btn btn-lg btn-transparent"
+              ><i class="fa fa-twitter-square fa-2x"></i
+            ></a>
+            <a class="btn btn-lg btn-transparent"
+              ><i class="fa fa-envelope fa-2x"></i
+            ></a>
+            <br />
+            <a class="btn btn-lg btn-transparent"
+              ><i class="fa fa-facebook-square fa-2x"></i
+            ></a>
+            <a class="btn btn-lg btn-transparent"
+              ><i class="fa fa-youtube fa-2x"></i
+            ></a>
           </div>
         </div>
       </div>
       <div class="copyright text-center bg-dark text-light w-100">
         &#169; 2019 | Design by <a href="#"> Ecometar.org</a>
-    </div>
-  </footer>
-
-
-
-</body>
-
+      </div>
+    </footer>
+  </body>
 </html>
