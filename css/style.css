@@ -36,22 +36,22 @@ footer a:hover {
 }
 .card-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url("../Vazduh\ prizvan\ Suncem\ 61x71\ \(kombinovana\ tehnika\ na\ kartonu\).JPG");
+    url("../images/Vazduh-Prizvan-Suncem.jpg");
   border-radius: 2rem;
 }
 .card-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url("../Minijatura1.JPG");
+    url("../images/Minijatura-01.jpg");
   border-radius: 2rem;
 }
 .card-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url("../Casa\ c.jpg");
+    url("../images/Čaša.jpg");
   border-radius: 2rem;
 }
 .card-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url("../Startup\ Dizajn.jpg");
+    url("../images/Startup-Dizajn.jpg");
   border-radius: 2rem;
 }
 .card-1,
