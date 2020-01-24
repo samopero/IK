@@ -26,25 +26,43 @@ footer a:hover {
   color: rgb(160, 252, 252);
   text-decoration: underline;
 }
+/* Cards for Gallery */
 .card-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("../images/Vazduh-Prizvan-Suncem.jpg");
   border-radius: 2rem;
+}
+.card-1:hover {
+  background-image: url("../images/Vazduh-Prizvan-Suncem.jpg");
+  transform: scale(1.04, 1.04);
+  color: #000 !important;
 }
 .card-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("../images/Minijatura-01.jpg");
   border-radius: 2rem;
 }
+.card-2:hover {
+  background-image: url("../images/Minijatura-01.jpg");
+  transform: scale(1.04, 1.04);
+}
 .card-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("../images/Čaša.jpg");
   border-radius: 2rem;
 }
+.card-3:hover {
+  background-image: url("../images/Čaša.jpg");
+  transform: scale(1.04, 1.04);
+}
 .card-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("../images/Startup-Dizajn.jpg");
   border-radius: 2rem;
+}
+.card-4:hover {
+  background-image: url("../images/Startup-Dizajn.jpg");
+  transform: scale(1.04, 1.04);
 }
 .card-1,
 .card-2,
@@ -57,6 +75,7 @@ footer a:hover {
   max-width: 300px;
   height: 380px;
 }
+/* Contact Forms */
 .contact_form h2,
 .contact_form label {
   font-family: Georgia, Times, "Times New Roman", serif;
