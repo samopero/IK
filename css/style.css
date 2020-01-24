@@ -1,12 +1,4 @@
-/*
-		TODO:
-		1) promeniti boje u heksa format,
-		2) promeniti px u rem i em-e,
-		3) komentarima razdvojiti sekcije radi lakseg sanlazenja i odrzavanja koda,
-		4) promenit imena naziva klasa u engleske nazive
-*/
-
-/* carousell */
+/* Carousel */
 .mySlides {
   display: none;
   height: 40rem;
@@ -19,17 +11,15 @@
   width: 100%;
 }
 body {
-  background-color: white;
+  background-color: #fff;
 }
-
 /* footer */
 footer {
   background-color: #555;
-  color: white;
-  /*padding: 30px;*/
+  color: #fff;
 }
 footer a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 footer a:hover {
@@ -66,7 +56,6 @@ footer a:hover {
   box-shadow: 7px 18px 50px #555;
   max-width: 300px;
   height: 380px;
-  ;
 }
 .contact_form h2,
 .contact_form label {
@@ -76,7 +65,6 @@ footer a:hover {
 .required_notification {
   font-size: 11px;
 }
-
 /* List Styles */
 .contact_form ul {
   width: 750px;
@@ -94,7 +82,6 @@ footer a:hover {
 .contact_form li:last-child {
   border-bottom: 1px solid #777;
 }
-
 /* Form Header */
 .contact_form h2 {
   margin: 0;
@@ -105,7 +92,6 @@ footer a:hover {
   margin: 5px 0 0 0;
   display: inline;
 }
-
 /* Form Elements */
 .contact_form label {
   width: 150px;
@@ -125,8 +111,7 @@ footer a:hover {
 .contact_form button {
   margin-left: 156px;
 }
-
-/* form element visual styles */
+/* Form */
 .contact_form input,
 .contact_form textarea {
   border: 1px solid #aaa;
@@ -145,7 +130,6 @@ footer a:hover {
   box-shadow: 0 0 3px #aaa;
   padding-right: 70px;
 }
-
 /* HTML5 validation styles */
 .contact_form input:required,
 .contact_form textarea:required {
@@ -163,12 +147,11 @@ footer a:hover {
   box-shadow: 0 0 5px #d45252;
   border-color: #b03535;
 }
-
-/* Form hints */
+/* Form Hints */
 .form_hint {
   background: #d45252;
   border-radius: 3px 3px 3px 3px;
-  color: white;
+  color: #fff;
   margin-left: 8px;
   padding: 1px 6px;
   z-index: 999; /* hints stay above all other elements */
@@ -191,7 +174,6 @@ footer a:hover {
 .contact_form input:required:valid + .form_hint::before {
   color: #28921f;
 }
-
 /* Button Style */
 button.submit {
   background-color: #68b12f;
@@ -220,7 +202,7 @@ button.submit {
   -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
   -o-box-shadow: 0 1px 0 0 #9fd574 inset;
   font-weight: bold;
-  color: white;
+  color: #fff;
   padding: 6px 20px;
   text-align: center;
   text-shadow: 0 -1px 0 #396715;
@@ -238,8 +220,7 @@ button.submit:active {
   -o-box-shadow: 0 0 10px 5px #356b0b inset;
 }
 .font-weight-bold {
-  /* TODO: promeniti boje u heksa format */
-  color: white;
+  color: #fff;
 }
 .price-card-button {
   width: 60%;
@@ -252,15 +233,7 @@ button.submit:active {
   background-color: #fdcf00;
   transform: translateY(-2px);
 }
-/* .about-me {
-  TODO: promeniti ime klase u engleski naziv
-  float: left;
-  width: 400px;
-  height: 300px;
-  margin-right: 15px;
-} */
-
-/* gallery */
+/* Gallery */
 .gallery-block {
   padding-bottom: 60px;
   padding-top: 60px;
@@ -277,7 +250,7 @@ button.submit:active {
 .gallery-block.compact-gallery .item {
   overflow: hidden;
   margin-bottom: 0;
-  background: black; /* TODO: promeniti boje u heksa format */
+  background: #000;
   opacity: 1;
 }
 .gallery-block.compact-gallery .item .image {
@@ -315,8 +288,7 @@ button.submit:active {
   margin-top: 10px;
   font-weight: 300;
 }
-
-/* responsive */
+/* Responsive */
 @media (min-width: 576px) {
   .gallery-block.compact-gallery .item .description {
     opacity: 0;
@@ -329,18 +301,15 @@ button.submit:active {
     opacity: 0.7;
   }
 }
-.studio{
-  background: 
-  url("../images/Sovuljagice.jpg");
-border-radius: 2rem;
-color: white;
-
+.studio {
+  background: url("../images/Sovuljagice.jpg");
+  border-radius: 2rem;
+  color: #fff;
 }
-
- .zoom-on-hover{
+.zoom-on-hover {
   padding: 15px !important;
-  background: none !important ; 
+  background: none !important ;
 }
-.card-link{
+.card-link {
   color: #ffc107 !important;
 }
