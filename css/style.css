@@ -1,6 +1,14 @@
 body {
   background-color: #fff;
 }
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+} */
 /* Carousel */
 .mySlides {
   display: none;
@@ -34,6 +42,10 @@ footer a:hover {
 }
 .social-media {
   height: 1.5rem;
+}
+/* Navbar */
+nav a:hover {
+  color: #ffc107 !important;
 }
 /* Cards */
 .card-1 {
@@ -85,6 +97,7 @@ footer a:hover {
 }
 .card-link {
   color: #ffc107 !important;
+  text-transform: uppercase;
 }
 /* Gallery */
 .gallery-block {
