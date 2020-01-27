@@ -43,6 +43,13 @@ footer a:hover {
 .social-media {
   height: 1.5rem;
 }
+.to-the-top {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.to-the-top:hover {
+  color: #ffc107 !important;
+}
 /* Navbar */
 nav a:hover {
   color: #ffc107 !important;
