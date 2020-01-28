@@ -60,43 +60,55 @@
     </header>
 
     <main class="gallery">
-      <section class="pt-5 pb-5">
-        <div class="container">
-          <div class="row text-center center">
-            <div class="card-deck">
-              <div class="card py-3 my-3 card-1">
-                <div class="card-body">
-                  <h5 class="text-uppercase card-heading mb-5">Slike</h5>
-                </div>
-                <a href="images.html" class="card-link">Saznajte više ...</a>
+      <div>
+        <h1 class="text-center pt-5 card-link">Galerija</h1>
+      </div>
+      <section class="container pt-5">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card py-3 my-3 card-1 transform-on-hover">
+              <div class="card-body">
+                <h5 class="text-uppercase card-heading mb-5">Slike</h5>
               </div>
-              <div class="card py-3 my-3 card-2">
-                <div class="card-body">
-                  <h5 class="text-uppercase card-heading mb-5">Skulpture</h5>
-                </div>
-                <a href="images.html" class="card-link">Saznajte više ...</a>
-              </div>
-              <div class="card py-3 my-3 card-3">
-                <div class="card-body">
-                  <h5 class="text-uppercase card-heading mb-5">Staklo i keramika</h5>
-                </div>
-                <a href="images.html" class="card-link">Saznajte više ...</a>
-              </div>
-              <div class="card py-3 my-3 card-4">
-                <div class="card-body">
-                  <h5 class="text-uppercase card-heading mb-5">Dizajn</h5>
-                </div>
-                <a href="images.html" class="card-link">Saznajte više ...</a>
-              </div>
+              <a href="images.html" class="card-link">Saznajte više ...</a>
             </div>
           </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card py-3 my-3 card-2 transform-on-hover">
+              <div class="card-body">
+                <h5 class="text-uppercase card-heading mb-5">Skulpture</h5>
+              </div>
+              <a href="images.html" class="card-link">Saznajte više ...</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card py-3 my-3 card-3 transform-on-hover">
+              <div class="card-body">
+                <h5 class="text-uppercase card-heading mb-5">
+                  Staklo i keramika
+                </h5>
+              </div>
+              <a href="images.html" class="card-link">Saznajte više ...</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card py-3 my-3 card-4 transform-on-hover">
+              <div class="card-body">
+                <h5 class="text-uppercase card-heading mb-5">Dizajn</h5>
+              </div>
+              <a href="images.html" class="card-link">Saznajte više ...</a>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Google Map -->
       <section class="pt-5">
         <div class="gmap-canvas">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d718.6937776692699!2d20.345772729193055!3d43.90192426499798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475773dccebd1cb9%3A0x24433e46ea607a5!2zSXZhbmEgS25lxb5ldmnEhw!5e0!3m2!1ssr!2srs!4v1579962259247!5m2!1ssr!2srs"
-            frameborder="0" allowfullscreen="">
+            frameborder="0"
+            allowfullscreen=""
+          >
           </iframe>
         </div>
       </section>
@@ -109,24 +121,62 @@
             <h3>Mapa sajta</h3>
             <ul>
               <!-- * napomena: Ikonice su Font Awesome 4 -->
-              <li><a href="index.html"><i class="fa fa-home"></i> Početna</a></li>
-              <li><a href="events.html"><i class="fa fa-bicycle" aria-hidden="true"></i> Aktivnosti</a></li>
-              <li><a href="studio.html"><i class="fa fa-paint-brush" aria-hidden="true"></i> Radionice</a></li>
-              <li><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i> Galerija</a></li>
-              <li><a href="about.html"><i class="fa fa-address-card-o" aria-hidden="true"></i> O meni</a></li>
-              <li><a href="contact.html"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Kontakt</a></li>
+              <li>
+                <a href="index.html"><i class="fa fa-home"></i> Početna</a>
+              </li>
+              <li>
+                <a href="events.html"
+                  ><i class="fa fa-bicycle" aria-hidden="true"></i>
+                  Aktivnosti</a
+                >
+              </li>
+              <li>
+                <a href="studio.html"
+                  ><i class="fa fa-paint-brush" aria-hidden="true"></i>
+                  Radionice</a
+                >
+              </li>
+              <li>
+                <a href="gallery.html"
+                  ><i class="fa fa-picture-o" aria-hidden="true"></i>
+                  Galerija</a
+                >
+              </li>
+              <li>
+                <a href="about.html"
+                  ><i class="fa fa-address-card-o" aria-hidden="true"></i> O
+                  meni</a
+                >
+              </li>
+              <li>
+                <a href="contact.html"
+                  ><i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                  Kontakt</a
+                >
+              </li>
             </ul>
           </div>
           <div class="col-md-4 col-sm-12" id="contact_bg">
             <h3>Kontakt</h3>
             <ul>
               <li>Adresa:</li>
-              <li><i class="fa fa-map-marker" aria-hidden="true"></i>  Ljubić Kej 19/11, 32000 Čačak, Srbija</li>
+              <li>
+                <i class="fa fa-map-marker" aria-hidden="true"></i> Ljubić Kej
+                19/11, 32000 Čačak, Srbija
+              </li>
               <!-- TODO: enkodovati brojeve telefona i email adresu -->
               <li>Telefon:</li>
-              <li><i class="fa fa-mobile" aria-hidden="true"></i> +381 (0)64 23 23 178</li>
+              <li>
+                <i class="fa fa-mobile" aria-hidden="true"></i> +381 (0)64 23 23
+                178
+              </li>
               <li>Mail:</li>
-              <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto: ivanaknezevic44@gmail.com">ivanaknezevic44@gmail.com</a></li>
+              <li>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="mailto: ivanaknezevic44@gmail.com"
+                  >ivanaknezevic44@gmail.com</a
+                >
+              </li>
             </ul>
           </div>
           <div class="col-md-4 col-sm-12 text-center pt-1">
@@ -162,7 +212,8 @@
         <button
           type="button"
           onclick="backToTheFuture()"
-          class="btn btn-outline-light text-light rounded-pill ml-auto to-the-top">
+          class="btn btn-outline-light text-light rounded-pill ml-auto to-the-top"
+        >
           Vrh strane
         </button>
       </div>

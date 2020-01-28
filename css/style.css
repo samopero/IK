@@ -55,6 +55,10 @@ nav a:hover {
   color: #ffc107 !important;
 }
 /* Cards */
+.card {
+  width: 14.0625rem;
+  margin: auto;
+}
 .card-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("../images/Vazduh-Prizvan-Suncem.jpg");
@@ -99,7 +103,7 @@ nav a:hover {
   background-position: center;
   background-size: cover;
   box-shadow: 7px 18px 50px #555;
-  max-width: 18.75rem;
+  /* max-width: 18.75rem; */
   height: 23.75rem;
 }
 .card-link {
